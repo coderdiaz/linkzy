@@ -24,5 +24,15 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "link-in-bio",
+    "links",
+    "linktree",
+    "linktree-alternative",
+    "singlelink",
+    "single-link",
+    "micro-site",
+    "microsite"
+  ]
 }
