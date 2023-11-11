@@ -1,6 +1,6 @@
 {
   "name": "@linkzy/react",
-  "version": "0.0.0-canary.3",
+  "version": "0.0.0-canary.4",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
