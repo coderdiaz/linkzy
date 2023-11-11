@@ -14,8 +14,8 @@ export const Root = ({
 }: RootProps) => {
   return (
     <div className={className}>
-      <div className="content">{children}</div>
-      <div className={backgroundClassName}>{background}</div>
+      {children}
+      {background && <div className={backgroundClassName}>{background}</div>}
     </div>
   );
 };
