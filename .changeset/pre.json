@@ -1,0 +1,10 @@
+{
+  "mode": "pre",
+  "tag": "canary",
+  "initialVersions": {
+    "common": "0.0.0",
+    "@linkzy/react": "0.0.0-canary.0",
+    "tsconfig": "0.0.0"
+  },
+  "changesets": []
+}
