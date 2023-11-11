@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { CommonProps } from 'common/types';
+import type { CommonProps } from '../helpers/props/common.prop';
 
 /**
  * Group
@@ -12,14 +12,18 @@ export const Group = ({ children, className }: GroupProps) => {
 /**
  * Link
  */
-interface LinkProps {
+interface LinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
   label: string;
   icon?: React.ReactNode;
-  href?: string;
 }
-export const Link = ({ label, href, icon }: LinkProps) => {
+export const Link = ({
+  label,
+  icon,
+  target = '_blank',
+  ...props
+}: LinkProps) => {
   return (
-    <a href={href} rel="noreferrer noopener">
+    <a rel="noreferrer noopener" target={target} {...props}>
       {icon && icon}
       {label}
     </a>

@@ -1,14 +1,12 @@
 import * as React from 'react';
-import type { CommonProps } from 'common/types';
-import { Head, Avatar, Content, Title, Bio } from './Head';
-import { Group, Link } from './Elements';
+import type { CommonProps } from '../helpers/props/common.prop';
 
 interface RootProps extends CommonProps {
   background?: React.ReactNode;
   backgroundClassName?: string;
 }
 
-const Root = ({
+export const Root = ({
   className,
   children,
   background,
@@ -21,5 +19,3 @@ const Root = ({
     </div>
   );
 };
-
-export { Root, Head, Avatar, Content, Title, Bio, Group, Link };

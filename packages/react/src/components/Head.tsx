@@ -1,5 +1,7 @@
-import * as React from 'react';
-import type { CommonProps, CommonPropsWithoutChildren } from 'common/types';
+import type {
+  CommonProps,
+  CommonPropsWithoutChildren,
+} from '../helpers/props/common.prop';
 
 /**
  * Head component
