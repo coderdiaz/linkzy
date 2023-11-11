@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev --parallel",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3",
+    "tsconfig": "*",
+    "turbo": "1.10.16"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "yarn@1.22.19"
+}
