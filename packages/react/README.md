@@ -2,7 +2,7 @@
 <div align="center">Collection of components that will help you create your very own links page</div>
 <br />
 <div align="center">
-<a href="https://github.com/resendlabs/react-email">GitHub</a> 
+<a href="https://github.com/coderdiaz/linkzy">GitHub</a> 
 <!-- <span> · </span>
 <a href="#">Discord</a> -->
 </div>
