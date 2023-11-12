@@ -1,5 +1,7 @@
-<div align="center"><strong>@linkzy/react</strong></div>
-<div align="center">Collection of unstyled components that will help you create your own linkings page</div>
+![Linkzy Logo](cover.png)
+
+<div align="center"><strong>Linkzy</strong></div>
+<div align="center">Unstyled components for creating pages similar to Linktree.</div>
 <br />
 <div align="center">
 <a href="https://github.com/coderdiaz/linkzy">GitHub</a> 
@@ -7,9 +9,13 @@
 <a href="#">Discord</a> -->
 </div>
 
+## Introduction
+
+An open-source collection of unstyled components for creating pages similar to Linktree using React, Vue (soon) and Svelte (soon). Stop creating pages with the same styles as everyone else. With Linkzy you can create your own styles and customize your page to your liking.
+
 ## Install
 
-Install package from your command line
+Install one of the components from your command line.
 
 #### With yarn
 
@@ -23,14 +29,20 @@ yarn add @linkzy/react -E
 npm install @linkzy/react -E
 ```
 
-## Getting started
+#### With pnpm
+
+```sh
+pnpm install @linkzy/react -E
+```
+
+## Getting Started
 
 Add the component to your template. Include styles where needed.
 
 ```jsx
 import * as Linkzy from '@linkzy/react';
 
-const LinksPage = () => {
+const Template = () => {
   return (
     <Linkzy.Root>
       <Linkzy.Head>
@@ -53,7 +65,7 @@ const LinksPage = () => {
         />
         <Linkzy.Link
           href="https://coderdiaz.dev/contacto"
-          label="Ponte en contacton conmigo"
+          label="Ponte en contacto conmigo"
         />
       </Linkzy.Group>
     </Linkzy.Root>
@@ -61,6 +73,12 @@ const LinksPage = () => {
 };
 ```
 
+## Authors
+
+- Javier Diaz ([@coderdiaz](https://x.com/coderdiaz))
+
 ## License
 
-MIT License
+Licensed under the mIT License, Copyright &copy; 2023 Javier Diaz Chamorro
+
+See [LICENSE](./LICENSE.md) for more information.
