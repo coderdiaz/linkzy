@@ -1,6 +1,6 @@
 {
   "name": "@linkzy/react",
-  "version": "0.0.0",
+  "version": "0.0.0-canary.4",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -10,12 +10,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "tsup index.ts --format esm,cjs --dts --external react",
-    "dev": "tsup index.ts --format esm,cjs --watch --dts --external react",
+    "build": "tsup src/index.ts --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts --external react",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
-  },
-  "dependencies": {
-    "common": "*"
   },
   "devDependencies": {
     "@types/react": "18.2.37",
@@ -24,5 +21,18 @@
     "tsconfig": "*",
     "tsup": "7.2.0",
     "typescript": "5.2.2"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "link-in-bio",
+    "links",
+    "linktree",
+    "linktree-alternative",
+    "singlelink",
+    "single-link",
+    "micro-site",
+    "microsite"
+  ]
 }
