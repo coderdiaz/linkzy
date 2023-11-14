@@ -21,6 +21,7 @@ export const Network = ({
       href={url}
       target={target}
       rel="noopener noreferrer"
+      data-testid="network"
       {...props}
     >
       {children}

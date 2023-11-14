@@ -6,7 +6,11 @@ import type { CommonProps } from '../helpers/props/common.prop';
  */
 interface GroupProps extends CommonProps {}
 export const Group = ({ children, className }: GroupProps) => {
-  return <div className={className}>{children}</div>;
+  return (
+    <div className={className} data-testid="group">
+      {children}
+    </div>
+  );
 };
 
 /**
@@ -23,8 +27,8 @@ export const Link = ({
   ...props
 }: LinkProps) => {
   return (
-    <a rel="noreferrer noopener" target={target} {...props}>
-      {icon && icon}
+    <a rel="noreferrer noopener" target={target} data-testid="link" {...props}>
+      {icon && <div data-testid="icon">{icon}</div>}
       {label}
     </a>
   );

@@ -13,9 +13,13 @@ export const Root = ({
   backgroundClassName,
 }: RootProps) => {
   return (
-    <div className={className}>
+    <div className={className} data-testid="root">
       {children}
-      {background && <div className={backgroundClassName}>{background}</div>}
+      {background && (
+        <div className={backgroundClassName} data-testid="background">
+          {background}
+        </div>
+      )}
     </div>
   );
 };
