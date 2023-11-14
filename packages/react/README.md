@@ -1,10 +1,10 @@
 <div align="center"><strong>@linkzy/react</strong></div>
-<div align="center">Collection of unstyled components that will help you create your own linkings page</div>
+<div align="center">Collection of unstyled components for create your own link-in-bio</div>
 <br />
 <div align="center">
 <a href="https://github.com/coderdiaz/linkzy">GitHub</a> 
-<!-- <span> · </span>
-<a href="#">Discord</a> -->
+<span> · </span>
+<a href="../../LICENSE.md">License</a>
 </div>
 
 ## Install

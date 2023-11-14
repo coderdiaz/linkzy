@@ -1,17 +1,17 @@
 ![Linkzy Logo](cover.png)
 
 <div align="center"><strong>Linkzy</strong></div>
-<div align="center">Unstyled components for creating pages similar to Linktree.</div>
+<div align="center">Unstyled components for create your own link-in-bio page.</div>
 <br />
 <div align="center">
 <a href="https://github.com/coderdiaz/linkzy">GitHub</a> 
-<!-- <span> · </span>
-<a href="#">Discord</a> -->
+<span> · </span>
+<a href="./LICENSE.md">License</a>
 </div>
 
 ## Introduction
 
-An open-source collection of unstyled components for creating pages similar to Linktree using React, Vue (soon) and Svelte (soon). Stop creating pages with the same styles as everyone else. With Linkzy you can create your own styles and customize your page to your liking.
+An open-source collection of unstyled components for create your link-in-bio using React, Vue (soon) and Svelte (soon). Say goodbye to generic page designs and stand out from the crowd. Linkzy empowers you to fully customize your link-in-bio according to your preferences.
 
 ## Install
 
@@ -79,6 +79,6 @@ const Template = () => {
 
 ## License
 
-Licensed under the mIT License, Copyright &copy; 2023 Javier Diaz Chamorro
+Licensed under the MIT License. See [LICENSE](./LICENSE.md) for more information.
 
-See [LICENSE](./LICENSE.md) for more information.
+Copyright &copy; 2023 Javier Diaz Chamorro
