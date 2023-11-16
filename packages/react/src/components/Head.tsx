@@ -9,7 +9,11 @@ import type {
 interface HeadProps extends CommonProps {}
 
 export const Head = ({ children, className }: HeadProps) => {
-  return <div className={className}>{children}</div>;
+  return (
+    <div className={className} data-testid="head">
+      {children}
+    </div>
+  );
 };
 
 /**
@@ -18,7 +22,11 @@ export const Head = ({ children, className }: HeadProps) => {
 interface AvatarProps extends CommonProps {}
 
 export const Avatar = ({ children, className }: AvatarProps) => {
-  return <div className={className}>{children}</div>;
+  return (
+    <div className={className} data-testid="avatar">
+      {children}
+    </div>
+  );
 };
 
 /**
@@ -27,7 +35,11 @@ export const Avatar = ({ children, className }: AvatarProps) => {
 interface ContentProps extends CommonProps {}
 
 export const Content = ({ children, className }: ContentProps) => {
-  return <div className={className}>{children}</div>;
+  return (
+    <div className={className} data-testid="content">
+      {children}
+    </div>
+  );
 };
 
 /**
@@ -38,7 +50,11 @@ interface TitleProps extends CommonPropsWithoutChildren {
 }
 
 export const Title = ({ className, label }: TitleProps) => {
-  return <h1 className={className}>{label}</h1>;
+  return (
+    <h1 className={className} data-testid="title">
+      {label}
+    </h1>
+  );
 };
 
 /**
@@ -46,5 +62,9 @@ export const Title = ({ className, label }: TitleProps) => {
  */
 interface BioProps extends CommonProps {}
 export const Bio = ({ children, className }: BioProps) => {
-  return <div className={className}>{children}</div>;
+  return (
+    <div className={className} data-testid="bio">
+      {children}
+    </div>
+  );
 };
